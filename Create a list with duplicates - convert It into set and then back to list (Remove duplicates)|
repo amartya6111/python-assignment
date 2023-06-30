@@ -1,0 +1,11 @@
+Q- Create a list with duplicates - convert It into set and then back to list (Remove duplicates)| ?
+
+my_list = [1, 2, 3, 4, 1, 2, 5, 6, 3, 7, 8, 4]
+
+unique_set = set(my_list)
+
+unique_list = list(unique_set)
+
+print("Original List:", my_list)
+print("Set without Duplicates:", unique_set)
+print("List without Duplicates:", unique_list)
