@@ -1,0 +1,15 @@
+Q-Create a dictionary, add key values , delete key values?
+
+
+my_dict = {}
+
+my_dict['name'] = 'Amartya'
+my_dict['age'] = 22
+my_dict['city'] = 'Agra'
+
+print("Original Dictionary:", my_dict)
+
+del my_dict['age']
+my_dict.pop('city')
+
+print("Updated Dictionary:", my_dict)
